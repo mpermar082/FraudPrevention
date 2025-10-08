@@ -1,10 +1,10 @@
 {
     // Project metadata
-    "name": "fraudprevention",
+    "name": "FraudPrevention",
     "version": "1.0.0",
-    "description": "FraudPrevention - A TypeScript implementation",
+    "description": "A TypeScript implementation for fraud prevention",
     "main": "dist/index.js",
-    "author": "mpermar082",
+    "author": "M. P. (mpermar082)",
     "license": "MIT",
     
     // Script commands
@@ -23,16 +23,23 @@
     
     // Project dependencies
     "dependencies": {
-        "minimist": "^1.2.0" // Dependency for command-line argument parsing
+        // Command-line argument parsing library
+        "minimist": "^1.2.0"
     },
     
     // Project development dependencies
     "devDependencies": {
-        "typescript": "^5.0.0", // TypeScript compiler
-        "@types/node": "^18.0.0", // TypeScript type definitions for Node.js
-        "@types/minimist": "^1.2.0", // TypeScript type definitions for minimist
-        "ts-node": "^10.0.0", // TypeScript execution environment
-        "jest": "^29.0.0", // Testing framework
-        "@types/jest": "^29.0.0" // TypeScript type definitions for Jest
+        // TypeScript compiler
+        "typescript": "^5.0.0",
+        // TypeScript type definitions for Node.js
+        "@types/node": "^18.0.0",
+        // TypeScript type definitions for minimist
+        "@types/minimist": "^1.2.0",
+        // TypeScript execution environment
+        "ts-node": "^10.0.0",
+        // Testing framework
+        "jest": "^29.0.0",
+        // TypeScript type definitions for Jest
+        "@types/jest": "^29.0.0"
     }
 }
